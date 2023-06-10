@@ -1,9 +1,11 @@
 import './style.scss'
 
+import logo from '../../assets/logo.jpg'
+
 const NavBar = () => {
   return (
     <div className="navbar">
-      <h1 className='navbar__logo'>Bilinguage</h1>
+      <img src={logo} alt="logo" className='navbar__logo'/>
       <div className="navbar__links">
         <a href="#" role='dropdown'>Courses</a>
         <a href="#">Why Us</a>
