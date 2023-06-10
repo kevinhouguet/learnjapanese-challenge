@@ -13,4 +13,12 @@
     margin-top: 2rem;
     display: inline-block;
   }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    z-index: -1;
+  }
 }

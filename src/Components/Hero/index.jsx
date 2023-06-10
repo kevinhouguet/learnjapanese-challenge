@@ -1,8 +1,10 @@
 import './style.scss'
+import bg from '../../assets/bg.jpg'
 
 const Hero = () => {
   return (
     <div className="hero">
+      <img src={bg} alt="background-image" className='background-image'/>
       <h1 className="hero__title">
         Learn Japanese
       </h1>
