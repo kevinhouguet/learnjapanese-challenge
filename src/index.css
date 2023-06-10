@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   --bg-primary-color: #fff;
   --btn-primary-color: #372f7f;
   --primary-dark-color: black;
@@ -32,7 +34,6 @@ a[role='button'] {
   cursor: pointer;
   padding: 16px 20px;
   border-radius: 10px;
-  border: 2px solid var(--primary-dark-color);
 }
 
 .btn-primary {
@@ -44,6 +45,7 @@ a[role='button'] {
 .btn-secondary {
   background-color: var(--bg-primary-color);
   color: var(--primary-dark-color);
+  border: 2px solid var(--primary-dark-color);
 }
 
 a[role='dropdown']::after {
