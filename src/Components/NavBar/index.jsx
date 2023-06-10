@@ -8,7 +8,7 @@ const NavBar = () => {
         <a href="#" role='dropdown'>Courses</a>
         <a href="#">Why Us</a>
         <a href="#">Support</a>
-        <a href="#" role='button'>Get Started</a>
+        <a href="#" role='button' className='btn-secondary'>Get Started</a>
       </div>
     </div>
   )
