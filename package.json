@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://kevinhouguet.github.io/learnjapanase-challenge/",
+  "homepage": "https://kevinhouguet.github.io/learnjapanese-challenge/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
